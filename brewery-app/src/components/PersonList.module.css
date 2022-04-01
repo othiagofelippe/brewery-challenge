@@ -1,0 +1,33 @@
+.content_bg {
+  padding: 120px 0;
+  color: #fff
+}
+
+.cards_container {
+  background-color: #0039FF;
+  border: 1px solid #fff;
+  display:  grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-items: center;
+  padding: 20px;
+
+}
+
+.card {
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
